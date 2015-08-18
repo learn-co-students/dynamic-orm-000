@@ -2,7 +2,7 @@
 
 ## Note
 
-This lab requires some setup so run this in your terminal
+This lab requires some setup so run this in your terminal, make sure you have Postgres installed and running.
 
 ``` shell
 createdb dynamic_orm_test
