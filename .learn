@@ -1,7 +1,7 @@
 tags:
-  - "orm
+  - orm
   - metaprogramming
-  - wip"
+  - wip
 languages:
   - ruby
 resources: null

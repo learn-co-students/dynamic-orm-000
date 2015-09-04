@@ -2,7 +2,7 @@
 
 ## Note
 
-This lab requires some setup so run this in your terminal
+This lab requires some setup so run this in your terminal, make sure you have Postgres installed and running.
 
 ``` shell
 createdb dynamic_orm_test
@@ -16,7 +16,7 @@ in with `rake console`.
 ![](http://media1.giphy.com/media/LXTQN2kRbaqAw/200.gif)
 
 Points of interest
-------------------
+
 
 Be sure to checkout the files in spec/db/. They have the seed data for
 the tests.
@@ -39,7 +39,7 @@ end
 ```
 
 The API
--------
+-
 
 All of the classes that inherit from your ORM will have the following
 class methods:
