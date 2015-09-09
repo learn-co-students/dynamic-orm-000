@@ -94,6 +94,7 @@ describe "Metaprogrammed Amazingness" do
       it "saves an non existent programmer" do
         programmer = Programmer.new(name: "Steven", language: "Ruby")
         programmer.save
+        # binding.pry
         expect(programmer.id).to_not be_nil
       end
 
